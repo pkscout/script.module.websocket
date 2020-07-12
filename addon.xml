@@ -3,6 +3,7 @@
   <requires>
     <import addon="xbmc.python" version="2.26.0" />
     <import addon="script.module.six" version="1.13.0" />
+    <import addon="script.module.backports.ssl_match_hostname" version="3.7.0.1" />
   </requires>
   <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
